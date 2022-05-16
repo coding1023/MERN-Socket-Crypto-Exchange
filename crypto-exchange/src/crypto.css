@@ -1,0 +1,21 @@
+.heading{
+    
+    width: 1225px;
+    height: auto; margin: auto;
+    display: flex;  justify-content: space-around;
+    flex-direction: column; transition: all 0.2 linear;
+    flex-flow: wrap;
+  
+    
+    padding: 4px 0px;
+    align-items: center;
+   
+    padding: .7rem 1rem;
+    
+    
+    /* Neutral 1 (boxes) */
+    
+    background: #ffffff;
+   
+    
+}

@@ -1,0 +1,219 @@
+* {
+  margin: 0; padding:0; box-sizing: border-box;
+}
+/* body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0 10px;
+  background-color: #ffffff;
+} */
+
+.exchange-header {
+  color: black;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700 , bold;
+  position: relative;
+ margin: 60px 1100px 50px  222px;
+  
+}
+
+
+
+.wrapper {
+  width: 1440px;
+  height: 234px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
+  color: #9C9C9C;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+
+form{
+  margin-left: 225px!important;
+}
+
+form :where(input, select, button) {
+  width: 100%;
+  outline: none;
+
+  border: none;
+  
+}
+.form-titles {
+  display: flex;
+  margin: 0 15px 1px 6px;
+  font-size: 12px;
+  /* margin:0 0 10px 0px; */
+  color: rgb(184, 180, 180);
+}
+
+
+form input {
+  
+  width: 160px;
+  height: 42px;
+  font-size: 13px;
+  padding: 20px 0 12px 11px;
+  background: #ffffff;
+
+  /* Background */
+
+  background: #ffffff;
+  /* Neutral 2 (forms) */
+
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+form .drop-list {
+ 
+    width: 100%; height: auto; margin: auto;
+  display: flex;  justify-content: space-around;
+  flex-direction: column; transition: all 0.2 linear;
+  flex-flow: wrap;
+}
+
+.drop-list .select-box {
+  display: flex;
+  width: 200px;
+  height: 42px;
+  border-radius: 8px;
+  padding: 2px;
+
+  background: #ffffff;
+  /* Neutral 2 (forms) */
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.select-box img {
+  max-width: 28px;
+  max-height: 28px;
+  margin: 7px 1px 5px 2px;
+}
+
+
+.select-vector{
+ 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+   background: url('../public/assets/images/Vector.svg');
+   background-repeat: no-repeat;
+   background-position: 90% 50%;
+}
+
+.from{
+  margin:50px 13px 45px 0;
+}
+
+.amount-crypto-div{
+  margin: 50px  0 45px 0;
+}
+
+.equal {
+  margin: 50px 16px 0 16px;
+  font-size: 10px;
+  font-weight: bold;
+  color: black;
+}
+.equal p{
+  margin: 34px 0 0 0 ;
+}
+
+.amount-fiat-div{
+ margin: 50px  16px 45px 16px;
+}
+
+
+.to{
+  margin: 50px  0 45px 0;
+}
+
+.to-box img {
+  margin-right:6px;
+}
+
+.save-button-div{
+  margin:  50px  328px 45px 0;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.select-box select::-webkit-scrollbar {
+  width: 8px;
+}
+.select-box select::-webkit-scrollbar-track {
+  background: #fff;
+}
+.select-box select::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 7px;
+  border-right: 2px solid #ffffff;
+}
+
+
+.form-button {
+  background: #49cd5e;
+  border-radius: 8px;
+  width: 84px;
+  height: 40px;
+  background: #49cd5e;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 12px 24px;
+  transition: 0.3s ease;
+  border-radius: 7px;
+  position: flex;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+ margin: 20px 0 0 0 ;
+  font-family: "Red Hat Display", sans-serif;
+text-align: center;
+ 
+  
+
+}
+
+.form-button:hover {
+  background: #099c35;
+}
+
+@media (max-width: 1200px){
+  .flex-div{
+    width:100%; height: 2%;margin: auto;   }
+}
+
+@media (max-width: 600px){
+  .flex-div{
+    width:100%; height: auto;
+    margin: auto; 
+  }
+}
+@media (max-width: 1200px){
+  .wrapper{
+    width:50%; height: 40%;  }
+}
+
+
+.to-box{
+  background-color: #EEEEEE !important;
+}

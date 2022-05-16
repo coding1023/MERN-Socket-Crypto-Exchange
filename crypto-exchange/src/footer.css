@@ -1,0 +1,81 @@
+.feedback-msg{
+   
+position: relative;
+width: 1440px;
+height: 48px;
+left: 0px;
+top: 0px;
+
+background: #49CD5E;
+
+text-align: center;
+}
+
+
+.feedback-msg span {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    position: relative;
+    width: 161px;
+    height: 21px;
+    top: 14px;
+    margin: 0px 639px 13px 640px;
+    color: #FFFFFF;
+}
+
+.pagination{
+    width: 293.25;
+    height: 40px;
+    margin: 29px 905px 105px 201px;
+    
+}
+.pagination ul {
+
+  list-style-type: none;
+justify-content: center;
+align-items: center;
+}
+.pagination li {
+  float:left;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px;
+
+width: 40px;
+height: 40px;
+
+background: #FFFFFF;
+border-radius: 8px;
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+    text-decoration: none;
+  }
+  
+  .pagination li.active {
+   /* Dark */
+background: #000000;
+border-radius: 8px;
+color: #FFFFFF;
+  }
+  
+  .pagination li:hover:not(.active) {background-color: #ddd;}
+  
+  .pagination li:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+.arrow-icon {
+  margin: 2px 0 10.25 0;
+ }

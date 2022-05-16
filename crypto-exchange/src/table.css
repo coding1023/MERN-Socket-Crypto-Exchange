@@ -1,0 +1,202 @@
+
+.header-history{
+  /* History */
+
+margin: 52px 1155px 134px 222px;
+font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+
+/* or 27px */
+
+
+color: #000000;
+
+}
+
+
+
+
+.table-wrapper {
+  width: 1225px;
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 4px 0px;
+
+width: 1095px;
+height: 30px;
+
+/* Neutral 2 */
+
+background: #EEEEEE;
+border-radius: 4px;
+  align-items: center;
+  margin: 130px 123px 387px 222px
+}
+.table-col {
+  background: #f4f0ec;
+  font-size: 12px;
+  /* margin:0 0 10px 0px; */
+  color: black;
+  font-family: "Red Hat Display", sans-serif;
+  
+}
+
+.table-cont{
+  width: 1095px;
+  height: 30px;
+  margin: 0 123px 0 72px;
+  
+}
+
+
+
+
+
+@media (max-width: 1200px){
+  .table-wrapper{
+    width:50%; height: 40%;  }
+}
+
+@media (max-width: 1200px){
+  .table-col{
+    width:70%; margin: auto;  }
+}
+
+@media (max-width: 600px){
+  .table-col{
+    width:90%; margin: auto; }
+}
+
+
+
+
+.sort-icon {
+  margin: 11px 9px 12px 9px;
+}
+
+
+
+/* Center tables for demo */
+table {
+
+
+/* Auto layout */
+
+padding: 4px 0px;
+
+width: 1095px;
+height: 30px;
+
+/* Neutral 2 */
+
+background: #EEEEEE;
+border-radius: 4px;
+
+/* Inside auto layout */
+
+  margin-top: 254px;
+}
+
+/* Table Style */
+table {
+  color: #333;
+  background: white;
+  font-size: 12pt;
+  border-collapse: collapse;
+}
+table thead th{
+  font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 152.2%;
+/* or 21px */
+
+
+/* Primary */
+
+color: #000000;
+
+}
+
+
+table th{
+  
+  padding: 4px 0px;
+  height: 30px;
+  background: #f4f0ec;
+  font-size: 12px;
+  /* margin:0 0 10px 0px; */
+  color: black;
+  font-family: "Red Hat Display", sans-serif;
+}
+table tr {
+  
+padding: 16px 0px;
+
+width: 1095px;
+height: 54px;
+
+/* Background */
+
+background: #FFFFFF;
+border-radius: 4px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+table td {
+  padding: .5em;
+  
+}
+
+.column-1{
+  width: 229px;
+}
+.column-2{
+  width: 163px;
+}
+.column-3{
+  width: 210px;
+}
+.column-4{
+  width: 154px;
+}
+.column-5{
+  width: 228px;
+}
+.column-6{
+  width: 119px;
+}
+
+
+.cell{
+  font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 152.2%;
+/* or 21px */
+
+
+/* Primary */
+
+color: #000000;
+width: 114px;
+
+border-radius: 8px;
+
+}
+
+tr:nth-child(even) {
+  background: #EEEEEE;
+}
+tr:nth-child(odd) {
+  background: #fff;
+}
